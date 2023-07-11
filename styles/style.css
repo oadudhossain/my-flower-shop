@@ -247,18 +247,29 @@ header {
 }
 
 .input-box input {
-  width: 700px;
-  height: 22px;
+  border-radius: 8px;
+  width: 450px;
+  height: 42px;
   border: 0px;
   outline: none;
 }
 
 .input-box input::placeholder {
-  margin-left: 16px;
-  color: gray;
+  width: 500px;
+  height: 14px;
+  border-radius: 8px;
+  background: #fff;
 }
 
 .input-box button {
+  margin-right: 10px;
+  border-radius: 8px;
+  background-color: #e55473;
+  color: white;
+  border: 0px;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 13px 25px;
 }
 
 footer {
@@ -272,21 +283,29 @@ footer {
 }
 
 footer h5 {
-  color: white;
+  color: #e55473;
   font-size: 22px;
+  font-family: Lato;
+  font-size: 35px;
+  font-weight: 800;
 }
 
 footer h5 span {
-  color: red;
+  color: white;
+  margin-bottom: 5px;
 }
 
 .footer-content {
-  color: white;
+  margin: 0px;
   font-size: 14px;
   max-width: 625px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-family: Lato;
+  line-height: 30px;
 }
 
 .copyright-text {
-  color: gray;
+  color: rgba(255, 255, 255, 0.4);
   font-size: 12px;
 }
