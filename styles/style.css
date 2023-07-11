@@ -6,7 +6,7 @@ body {
 /* Header Style  */
 header {
   background: rgba(229, 84, 115, 0.1);
-  height: 850px;
+  height: 660px;
 }
 .banner {
   display: flex;
@@ -67,9 +67,8 @@ header {
   margin-top: 24px;
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
-  font-family: Lato;
-  font-size: 18px;
+  font-size: 12px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
+  font-weight: 600;
+  line-height: 20px;
 }
