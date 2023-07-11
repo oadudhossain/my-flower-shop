@@ -77,10 +77,11 @@ header {
 .featured-img {
   margin-top: 20px;
   display: flex;
-  text-align: center;
+  /* text-align: center; */
   justify-content: space-between;
 }
 .pink-flower {
+  /* text-align: center; */
   margin-left: 180px;
   width: 320px;
   height: 410px;
@@ -99,6 +100,15 @@ header {
   height: 410px;
   border-radius: 200px 200px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
+}
+.ground-text1 {
+  margin-left: 280px;
+}
+.ground-text2 {
+  margin-left: 80px;
+}
+.ground-text3 {
+  margin-left: 80px;
 }
 /* hot-deal-section */
 .hot-deal {
